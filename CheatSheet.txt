@@ -7,3 +7,8 @@ For checking the folders: ls
 For creating a file and write somthing init: echo text > or >> FileName
 For seeing the status and save the changing and the files: git status and git add . or git add FileName
 For permanent storing in repo: commit -m 'Git comments'
+# The point of commiting is record checkpoints as we go
+For seeing the content of the file which we wrote init: cat FileName'
+deleting a file: rm FileName'
+seeing the file in the project: ls-files'
+For renaming or moving a file: mv FileName NewFileName
