@@ -14,3 +14,4 @@ seeing the file in the project: ls-files'
 For renaming or moving a file: mv FileName NewFileName
 For ognoring a file: echo FileName > .gitignore
 For opening ignored file: code gitignore
+For removing a file from directory which commited: git rm --cached -r FileName
