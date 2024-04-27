@@ -1,2 +1,8 @@
 For creating a directory: mkdir
 For creating a username: git config --global user.name 'Arvand Eftekhar' 
+For creating a user email: git config --global user.email arvand.eftekhar@gmail.com 
+For adding vscode as a default editor: git config --global core.editor 'core --wait' and git config --global -e and git config --global core.autocrlf true
+For changing directory and creating repo: cd FileName and git init
+For checking the folders: ls
+For creating a file and write somthing init: echo text > or >> FileName
+For seeing the status and save the changing and the files: git status and git add . or git add FileName
