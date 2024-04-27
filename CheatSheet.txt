@@ -1,0 +1,2 @@
+For creating a directory: mkdir
+For creating a username: git config --global user.name 'Arvand Eftekhar' 
