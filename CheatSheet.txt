@@ -23,3 +23,4 @@ For seeing the commits content: git show fqq97...
 For undo the add operation/unstaging: git restore --staged FileName
 For undo the local changes: git clean -fd
 For restoring the file/restor from deleting: git restore --source=HEAD~1 FileName
+for adding files  to the github with git: git remote add origin and git repo link, then git push -u origin BranchName(main)
