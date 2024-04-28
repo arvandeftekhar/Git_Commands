@@ -24,3 +24,5 @@ For undo the add operation/unstaging: git restore --staged FileName
 For undo the local changes: git clean -fd
 For restoring the file/restor from deleting: git restore --source=HEAD~1 FileName
 for adding files  to the github with git: git remote add origin and git repo link, then git push -u origin BranchName(main)
+# For adding the updated file again to the git for the second ore more time: git push
+# For download from the github: git clone LinkOfRepo
