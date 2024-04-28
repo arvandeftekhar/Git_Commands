@@ -27,3 +27,6 @@ for adding files  to the github with git: git remote add origin and git repo lin
 # For adding the updated file again to the git for the second ore more time: git push
 # For download from the github: git clone LinkOfRepo
 # For seeing the changes and difrences befor and after for the specific file: git diff FileName
+For creating a new branch and swith to it: git branch Name and git checkout NameOfBranch
+For seeing the branch and log: git log --all --graph
+For merging,combining two branches: git merge TheOtheOneName
