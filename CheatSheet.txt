@@ -15,3 +15,11 @@ For renaming or moving a file: mv FileName NewFileName
 For ognoring a file: echo FileName > .gitignore
 For opening ignored file: code gitignore
 For removing a file from directory which commited: git rm --cached -r FileName
+For short status: git status -s
+# green m means modified and red means modified and not added and green A maens added and red question mark means not added
+For seeing staged and unstaged changes: git diff and git diff --staged
+For seeing the commits: git log or git log --oneline #space is next page and q is exit
+For seeing the commits content: git show fqq97...
+For undo the add operation/unstaging: git restore --staged FileName
+For undo the local changes: git clean -fd
+For restoring the file/restor from deleting: git restore --source=HEAD~1 FileName
